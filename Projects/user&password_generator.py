@@ -24,6 +24,8 @@ def username_generator(first_name, last_name):
     return user_name
 
 
+print(username_generator("Mohamed", "Kasem"))
+
 # 2- Great work! Now for the temporary password, they want the function to take the input user name and
 # shift all of the letters by one to the right, so the last letter of the username ends up as the first
 # letter and so forth. For example, if the username is AbeSimp, then the temporary password generated

@@ -1,1 +1,5 @@
-authors = "Audre Lorde,Gabriela Mistral,Jean Toomer,An Qi,Walt Whitman,Shel Silverstein,Carmen Boullosa,Kamala Suraiyya,Langston Hughes,Adrienne Rich,Nikki Giovanni"
+msg = "One fish, two fish, red fish, blue fish."
+
+a = msg.split(",")
+
+print(a)
