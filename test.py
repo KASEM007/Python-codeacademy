@@ -1,5 +1,6 @@
-msg = "One fish, two fish, red fish, blue fish."
+word = "Mohamed"
+new_word = list(reversed(word))
+print("".join(new_word))
 
-a = msg.split(",")
 
-print(a)
+# return ''.join(list(reversed(val)))
