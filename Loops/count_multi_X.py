@@ -23,3 +23,19 @@ print(count_multi_char_x("mississippi", "iss"))
 # should print 2
 print(count_multi_char_x("apple", "pp"))
 # should print 1
+
+
+######## Better Answer incase I need to look at sequence of char #######
+
+
+def seq_count(string, seq):
+    n = len(seq)
+    m = len(string)
+    count = 0
+    for i in range(len(string)):
+        if string[i : i + n] == seq:
+            count += 1
+    return count
+
+
+print(seq_count("issmississippiss", "iss"))
