@@ -14,12 +14,25 @@
 
 
 def remove_all_before(items, border):
-    if border not in items:
-        return items
-    else:
+    # if border not in items:
+    #     return items
+    # else:
+    #     x = items.index(border)
+    #     return items[x:]
+    # ======================================
+    if border in items:
         x = items.index(border)
         return items[x:]
+    else:
+        return items
 
+
+# =======================================
+# try:
+#     x = items.index(border)
+#     return items[x:]
+# except:
+#     return items
 
 # These "asserts" are used for self-checking and not for an auto-testing
 print(remove_all_before([1, 1, 2, 2, 3, 3], 2))  # == [2, 2, 3, 3]
