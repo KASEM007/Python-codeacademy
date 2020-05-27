@@ -17,6 +17,3 @@
 # print(nearest_value({4, 7, 10, 11, 12, 17}, 100))  # == 17
 # print(nearest_value({5, 10, 8, 12, 89, 100}, 7))  # == 8
 # print(nearest_value({-1, 2, 3}, 0))  # == -1
-
-x = 10
-print(abs(10))
