@@ -26,6 +26,7 @@ def count_first_letter(names):
         if first_letter not in letters:
             letters[first_letter] = 0
         letters[first_letter] += len(names[key])
+
     return letters
 
 
