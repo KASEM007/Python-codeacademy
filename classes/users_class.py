@@ -25,4 +25,4 @@ can_edit = UserGroup([Dianna, Frank], {'can edit pag':True})
 can_delet = UserGroup([Dianna, Jenn], {'can delete posts': True})
 
 print(len(can_edit))
-print(UserGroup.contains(self.can_edit))
+
